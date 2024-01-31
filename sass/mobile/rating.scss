@@ -1,0 +1,17 @@
+@import '../guide-styles/guide.scss';
+
+// Main Container
+.main-wrapper {
+	width: 300px;
+	height: 420px;
+	gap: 10px;
+}
+
+// Rating Options Section
+.rating__options {
+	height: 45px;
+}
+.rate__item {
+	width: 40px;
+	height: 40px;
+}
