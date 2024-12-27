@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/guide-styles/guide.scss","../../sass/mobile/rating.scss"],"names":[],"mappings":"AAuBA;EACC;;;AAED;EACC;;;AAED;EACC;EACA;EACA;EACA;EACA;EACA,kBA9BgB;;;AAgCjB;EACC;;;ACnCD;EACC;EACA;EACA;;;AAID;EACC;;;AAED;EACC;EACA","file":"rating.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/guide-styles/guide.sass","../../sass/mobile/rating.sass"],"names":[],"mappings":"AAuBA;EACC;;;AAED;EACC;;;AAED;EACC;EACA;EACA;EACA;EACA;EACA,kBA9BgB;;;AAgCjB;EACC;;;ACnCD;EACC;EACA;EACA;;;AAGD;EACC;;;AAED;EACC;EACA","file":"rating.css"}

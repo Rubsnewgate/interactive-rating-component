@@ -1,0 +1,42 @@
+@use '../guide-styles/guide.sass'
+
+// main Container
+.main-wrapper
+	display: grid
+	grid-template-rows: auto auto
+	gap: 20px
+	width: 420px
+	height: 420px
+	padding: 30px
+	font-family: guide.$primary-font
+	background-color: guide.$dark-blue
+	border-radius: 20px
+
+// user Rate Section
+.rate-result
+	@include guide.flexbox(column, center, center, 20px)
+
+.rate-result__user
+	@include guide.flexbox(row, center, center)
+	width: 220px
+	height: 30px
+	background-color: guide.$medium-gray
+	border-radius: 20px
+	p
+		margin: 0
+		font-size: guide.$sm-size
+		color: guide.$orange
+
+// result description
+.rate-result__description
+	@include guide.flexbox(column, center, center, 10px)
+
+.rate-result__title
+	margin: 0
+	font-size: guide.$lg-size
+	color: guide.$white
+
+.rate-result__text
+	text-align: center
+	font-size: guide.$md-size
+	color: guide.$light-gray
